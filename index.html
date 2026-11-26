@@ -5,24 +5,26 @@
 
     <title>Login</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 
 <body>
-    <h1 style="text-align: center;">StudySpace</h1>
-    <h2 style="text-align: center;">Login</h2>
 
-<form class="email-container">
+    <h1 class="login-header">StudySpace</h1>
+    <h2 class="login-header">login</h2>
 
-     <label for="userEmail" id="email-label">Enter your student email:</label>
+    <form id="loginForm">
+
+
+    <input id="userEmail" type="email" placeholder="example@uea.ac.uk" required>
     <br>
-    <input id="userEmail" type="email" required>
-    
-    <br>
-    <button id="submit" type="submit">Submit</button>
+    <button id="submit-btn" type="submit">Submit</button>
 
 
 
 </form>
+
+<script src="scripts/login.js"></script>
     
 
 

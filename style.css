@@ -1,10 +1,58 @@
-.email-container{
+/*--------------Login Page-----------------------------*/
+.login-header{
     text-align: center;
-    padding:150px;
+}
+
+#loginForm{
+    text-align: center;
 }
 
 
-#submit{
-    margin:20px;
-    border
+#submit-btn{
+    margin: 20px;
+}
+
+
+/*--------------Home Page-----------------------------*/
+
+#homePage-header{
+    text-align: center;
+}
+
+
+.nav-bar {
+  overflow: hidden;
+  background-color: #e9e9e9;
+  
+}
+
+
+.nav-bar li {
+float:right;
+  display: block;
+  color: black;
+  padding: 14px 16px;
+  border: solid 1px;
+  margin-left: 5px;
+}
+
+
+.nav-bar li:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.nav-bar li.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.nav-bar input[type=text] {
+  float: left;
+  padding: 5px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
 }
