@@ -5,6 +5,7 @@
 
 #loginForm{
     text-align: center;
+    
 }
 
 
@@ -12,23 +13,31 @@
     margin: 20px;
 }
 
+#userEmail{
+    width: 25%;
+}
+
 
 /*--------------Home Page-----------------------------*/
 
 #homePage-header{
     text-align: center;
+    border: solid 1px;
+     border-radius: 20px;
+     margin-right: 700px;
+     margin-left: 700px;
 }
 
 
 .nav-bar {
   overflow: hidden;
-  background-color: #e9e9e9;
+  background-color: grey;
   
 }
 
 
 .nav-bar li {
-float:right;
+float:left;
   display: block;
   color: black;
   padding: 14px 16px;
@@ -37,22 +46,71 @@ float:right;
 }
 
 
-.nav-bar li:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-
-.nav-bar li.active {
-  background-color: #2196F3;
-  color: white;
-}
-
 .nav-bar input[type=text] {
   float: left;
   padding: 5px;
   border: none;
   margin-top: 8px;
   margin-right: 16px;
-  font-size: 17px;
+  margin-left: 16px;
+}
+
+
+/*-----------homePage----------------*/
+.space-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.space-card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 18px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    margin: 0px 100px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.space-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.availability {
+    font-size: 14px;
+    color: green;
+}
+
+.space-image {
+    width: 25%;
+    height: 200px;
+    object-fit: cover;
+    
+    margin: 12px 0;
+}
+
+.space-tags {
+    display: flex;
+    flex-direction: column;
+    flex: right;
+    border:solid 1px;
+    gap: 10px;
+    margin: 0px 350px;
+   
+    
+}
+
+.tag {
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    background-color: grey;
+    
 }

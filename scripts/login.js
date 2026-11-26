@@ -1,3 +1,4 @@
+
 const loginForm = document.getElementById("loginForm");
 
 loginForm.addEventListener("submit", function(event) {
@@ -14,3 +15,4 @@ loginForm.addEventListener("submit", function(event) {
         window.location.href= "public/homepage.html";
     }
 });
+
